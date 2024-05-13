@@ -1,21 +1,99 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#include <behaviors.dtsi>
-
 / {
+    behaviors {
+        ht: ht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            bindings = <&kp>, <&kp>;
+        };
+
+        lht: lht {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LHT";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans &trans
-&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans &trans
-&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans &trans
+&trans  &kp Q               &kp W           &kp E               &kp R             &kp T         &kp Y       &kp U              &kp I                &kp O            &kp P                  &trans
+&trans  &ht LEFT_COMMAND A  &ht LEFT_ALT S  &ht LEFT_CONTROL D  &ht LEFT_SHIFT F  &kp G         &kp H       &ht RIGHT_SHIFT J  &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &ht RIGHT_COMMAND SQT  &trans
+&trans  &kp Z               &kp X           &kp C               &kp V             &kp B         &kp N       &kp M              &kp COMMA            &kp DOT          &kp FSLH               &trans
+                                            &lht 6 ESC          &lht 5 SPACE      &lht 4 TAB    &lht 1 RET  &lht 2 BACKSPACE   &lht 3 DELETE
+            >;
+        };
+
+        Symbol {
+            bindings = <
+&trans  &kp LEFT_BRACE  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp LS(RBRC)     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(COLON)   &kp LS(DLLR)   &kp LS(PRCNT)  &kp LSHFT             &kp LS(PLUS)     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(TILDE)   &kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)         &kp LS(PIPE)     &trans  &trans  &trans  &trans  &trans  &trans
+                                       &kp LS(LPAR)   &kp LS(RPAR)          &kp LS(UNDER)    &trans  &trans  &trans
+            >;
+        };
+
+        Number {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        Function {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        Mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        Navigation {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        Media {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        gaming {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
 };
-
