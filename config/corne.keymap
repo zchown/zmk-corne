@@ -10,9 +10,9 @@
 
         layer_0 {
             bindings = <
-&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans &trans
+&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans &trans
+&trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans &trans &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
