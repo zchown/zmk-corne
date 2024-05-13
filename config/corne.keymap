@@ -29,7 +29,7 @@
 &trans  &kp Q               &kp W           &kp E               &kp R             &kp T         &kp Y       &kp U              &kp I                &kp O            &kp P                  &trans
 &trans  &ht LEFT_COMMAND A  &ht LEFT_ALT S  &ht LEFT_CONTROL D  &ht LEFT_SHIFT F  &kp G         &kp H       &ht RIGHT_SHIFT J  &ht RIGHT_CONTROL K  &ht RIGHT_ALT L  &ht RIGHT_COMMAND SQT  &trans
 &trans  &kp Z               &kp X           &kp C               &kp V             &kp B         &kp N       &kp M              &kp COMMA            &kp DOT          &kp FSLH               &trans
-                                            &lht 6 ESC          &lht 5 SPACE      &lht 4 TAB    &lht 1 RET  &lht 2 BACKSPACE   &lht 3 DELETE
+                                            &lht 6 ESC          &lht 0 SPACE      &lht 4 TAB    &lht 1 RET  &lht 2 BACKSPACE   &lht 3 DELETE
             >;
         };
 
@@ -71,10 +71,10 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp K_REDO  &kp K_PASTE     &kp K_COPY     &kp K_CUT    &kp K_UNDO    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT    &kp CAPSLOCK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp INSERT  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END       &trans
+                        &trans  &trans  &trans    &trans      &trans          &trans
             >;
         };
 
