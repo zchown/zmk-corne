@@ -11,7 +11,6 @@
             tapping-term-ms = <200>;
             bindings = <&kp>, <&kp>;
 
-            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 13 14 15 16>;
             flavor = "tap-preferred";
         };
 
@@ -33,7 +32,6 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            hold-trigger-key-positions = <5 17 29 38 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 19 20 21 22>;
         };
     };
 
@@ -49,21 +47,25 @@
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <25 26>;
+            layers = <0>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <26 27>;
+            layers = <0>;
         };
 
         deletecopy {
             bindings = <&kp LG(X)>;
             key-positions = <27 28>;
+            layers = <0>;
         };
 
         semicolon {
             bindings = <&kp SEMI>;
             key-positions = <33 32>;
+            layers = <0>;
         };
     };
 
