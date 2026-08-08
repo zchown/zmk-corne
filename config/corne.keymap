@@ -137,10 +137,10 @@
 
         gaming {
             bindings = <
-&none  &kp N1          &kp N2  &kp N3      &kp N4     &kp N5     &to 0  &to 0  &to 0  &to 0  &to 0  &none
-&none  &kp Y           &kp Q   &kp W       &kp E      &kp R      &to 0  &to 0  &to 0  &to 0  &to 0  &none
-&none  &kp LEFT_SHIFT  &kp A   &kp S       &kp D      &kp F      &to 0  &to 0  &to 0  &to 0  &to 0  &none
-                               &kp ESCAPE  &kp SPACE  &kp TAB    &to 0  &to 0  &to 0
+&none  &kp TAB           &kp Q  &kp W       &kp E      &kp R    &to 0  &to 0  &to 0  &to 0  &to 0  &none
+&none  &kp LEFT_SHIFT    &kp A  &kp S       &kp D      &kp F    &to 0  &to 0  &to 0  &to 0  &to 0  &none
+&none  &kp LEFT_CONTROL  &kp Z  &kp X       &kp C      &kp V    &to 0  &to 0  &to 0  &to 0  &to 0  &none
+                                &kp ESCAPE  &kp SPACE  &mo 2    &to 0  &to 0  &to 0
             >;
         };
 
