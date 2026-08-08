@@ -1,0 +1,405 @@
+layout: {zmk_keyboard: corne}
+layers:
+  '0':
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - {t: A, h: LEFT COMMAND}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - G
+  - H
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
+  - {t: '''', h: RIGHT COMMAND}
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - {t: ESC, h: Media}
+  - {t: SPACE, h: Navigation}
+  - {t: TAB, h: Mouse}
+  - {t: RET, h: Symbol}
+  - {t: BACKSPACE, h: Number}
+  - {t: DELETE, h: Function}
+  Symbol:
+  - ''
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - RIGHT SHIFT
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT COMMAND
+  - ''
+  - ''
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - _
+  - {type: held}
+  - ''
+  - ''
+  Number:
+  - ''
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - RIGHT SHIFT
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT COMMAND
+  - ''
+  - ''
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
+  - '0'
+  - '-'
+  - ''
+  - {type: held}
+  - ''
+  Function:
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - PRINTSCREEN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - SCROLLLOCK
+  - ''
+  - RIGHT SHIFT
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT COMMAND
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - PAUSE BREAK
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  Mouse:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  Navigation:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT
+  - CAPSLOCK
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - INSERT
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  Media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI DN
+  - BRI UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - REWIND
+  - VOL DN
+  - VOL UP
+  - FAST FORWARD
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - STOP
+  - PLAY PAUSE
+  - MUTE
+  gaming:
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - ''
+  - ''
+  - Y
+  - Q
+  - W
+  - E
+  - R
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - ''
+  - ''
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - ''
+  - ESCAPE
+  - SPACE
+  - TAB
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  '9':
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - ''
+  - ''
+  - Y
+  - Q
+  - W
+  - E
+  - R
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - ''
+  - ''
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - '9'
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - ''
+  - ESCAPE
+  - SPACE
+  - TAB
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+  - {t: '0', h: toggle}
+combos:
+- p: [36, 41]
+  k: {t: gaming, h: toggle}
+  l: ['0']
+- p: [25, 26]
+  k: Gui+C
+  l: ['0']
+- p: [26, 27]
+  k: Gui+V
+  l: ['0']
+- p: [27, 28]
+  k: Gui+X
+  l: ['0']
+- p: [33, 32]
+  k: ;
+  l: ['0']
